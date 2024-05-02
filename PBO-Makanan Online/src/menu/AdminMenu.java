@@ -15,7 +15,7 @@ class AdminMenu {
         System.out.println("[3] Hapus Restaurant");
         System.out.println("[4] Edit Restaurant");
         System.out.println("[5] Log Out");
-        switch (inputInt("Masukan Pilihan",1,4)){
+        switch (inputInt("Masukan Pilihan",1,5)){
             case 1 :
                 lihatRestaurant();
                 break;
